@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useStore } from '../store/useStore';
-import { Card, CardContent, CardHeader, CardTitle } from '../components/common/Card';
+import { Card, CardContent } from '../components/common/Card';
 import { Button } from '../components/common/Button';
 import { generateDummyData } from '../lib/seed';
 import { Link } from 'react-router-dom';
